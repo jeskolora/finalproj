@@ -34,7 +34,7 @@ while True:
         #quiz
         elif choice ==4:
             print("How Philly Are You?\nFind out now by taking this quiz!")
-            print('Word blank : jawn - ocky - drawlin - wack - outta pocket')
+            print('Word blank : - ocky -jawn - wack - drawlin - outta pocket')
             QA = [
                 "Pass me that ___","jawn",
                 "Those shoes appear to be a knock-off. Therefore, it's ___.","ocky",
@@ -48,7 +48,7 @@ while True:
             while quiz <3:
                 question = input(QA[current])
                 if question ==QA[current + 1]:
-                    print("'That's right'")
+                    print("That's right")
                     points = points + 1
                     current = current + 2
                 quiz = quiz + 1
@@ -56,7 +56,7 @@ while True:
             if points <=1:
                 print('We can tell you are not from Philly.')
             elif points ==2:
-                print("Okay!\nYou must know how to get to Center City on your own.")
+                print("Wow!\nYou must know how to get to Center City on your own.")
             else:
                 print('Good job!\nYou must be a Philly native.')
  # exit
